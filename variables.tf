@@ -16,7 +16,7 @@ variable "replicas" {
 
 variable "image_name" {
   type        = string
-  description = "The image name (tag) of the image used to deploy the Kubernetes deployment with"
+  description = "The image name/url (tag) of the image used to deploy the Kubernetes deployment with"
   default     = "busybox"
 }
 
