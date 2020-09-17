@@ -39,7 +39,7 @@ variable "ports" {
 }
 
 variable "image_pull_secrets" {
-  type        = list(map(string))
+  type        = list(string)
   description = "The names of the secrets (from the same namespace) used to authenticate with the Docker registry to pull image from; and for secrets used by the Kubenetes deployment"
   default     = []
 }
