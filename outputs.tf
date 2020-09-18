@@ -2,10 +2,6 @@ output "name" {
   value = kubernetes_deployment.main.metadata.0.name
 }
 
-output "name" {
-  value = kubernetes_deployment.main.metadata.0.name
-}
-
 output "generation" {
   value = kubernetes_deployment.main.metadata.0.generation
 }
